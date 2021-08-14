@@ -1,0 +1,22 @@
+.admin-main-wrapper {
+  position: relative;
+  padding-left: 250px;
+
+  .MuiTableContainer-root {
+    width: 95% !important;
+  }
+
+  .MuiChip-root {
+    margin-right: 10px;
+  }
+
+  .content {
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+
+    .page-wrapper {
+      position: relative;
+    }
+  }
+}

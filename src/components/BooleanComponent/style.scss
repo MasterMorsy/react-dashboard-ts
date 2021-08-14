@@ -1,0 +1,22 @@
+.boolean-component-wrapper {
+  display: block;
+  //   margin: auto;
+
+  .boolean-component {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    // margin: auto;
+    &.true {
+      background-color: green;
+    }
+    &.false {
+      background-color: red;
+    }
+  }
+}

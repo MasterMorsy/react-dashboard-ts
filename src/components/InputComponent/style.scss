@@ -1,0 +1,55 @@
+.input-component {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 10px !important;
+  border: none;
+
+  input {
+    padding: 15px 13px;
+
+    &:focus {
+      background-color: #fff;
+      border: 2px solid #66cada;
+      border-radius: 7px;
+      padding: 13px 13px;
+    }
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    position: absolute;
+    bottom: -23px;
+  }
+
+  .MuiInputBase-formControl {
+    margin-top: 0px;
+  }
+
+  .MuiInputLabel-formControl {
+    top: -5px;
+    font-size: 15px;
+    display: inline-table;
+    margin-left: 10px;
+
+    &.MuiInputLabel-shrink {
+      top: -20px;
+      margin-left: 0px;
+    }
+  }
+
+  .MuiInput-underline {
+    &::after,
+    &::before {
+      content: "";
+      display: none;
+    }
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  textarea {
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,249 @@
+@import "./material";
+@import "./variables";
+
+// global classes
+.main-color {
+  color: #66cada;
+}
+.bc-color {
+  background-color: #66cada;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.bg-blue {
+  background-color: #0ea5e9;
+}
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+/* 01 Globals */
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+  cursor: pointer;
+}
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.mv-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mv-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mv-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mv-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(204, 204, 204);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(121, 121, 121);
+}
+
+.d-block {
+  display: block;
+}
+.clear {
+  clear: both;
+}
+.block-center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.form-layout {
+  margin-top: 40px;
+}
+
+.transparent-link {
+  color: #66cada;
+  text-decoration: underline;
+
+  &:visited {
+    color: #66cada;
+  }
+}
+
+.icon-link {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.card-wrapper {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(33, 43, 54);
+  background-image: none;
+  overflow: hidden;
+  box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px,
+    rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+  border-radius: 16px !important;
+  position: relative;
+  z-index: 0;
+  padding: 30px;
+  height: 100%;
+}
+
+//  styling form component
+.form-layout {
+  .main-button {
+    margin-top: 20px;
+  }
+}
+.MuiInput-root {
+  width: 100%;
+}
+
+.MuiListItem-root.Mui-selected {
+  background-color: rgba(112, 206, 222, 0.102) !important;
+  color: #66cada;
+
+  svg {
+    color: #66cada;
+  }
+}
+
+.MuiButton-containedPrimary {
+  background-color: $mainColor !important;
+}
+
+// chip component
+.admin-main-wrapper {
+  .MuiChip-root {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: $mainColor;
+    color: #fff;
+    border-radius: 4px;
+    height: 24px;
+
+    .MuiChip-deleteIcon {
+      width: 16px;
+    }
+  }
+}
+
+.second-color {
+  color: #23abec;
+}
+.bg-color {
+  background-color: #bcf7fc;
+  transition: all 0.35s ease-in-out;
+}
+.bg-color:hover {
+  background-color: #a9e3e9;
+}
+
+.bg-second-color {
+  background-color: #23abec !important;
+  transition: all 0.35s ease-in-out !important;
+  color: #fff !important;
+}
+
+.bg-second-color-outline {
+  border-color: #23abec;
+  transition: all 0.35s ease-in-out;
+
+  &:hover {
+    background-color: #23abec;
+    color: #fff;
+  }
+}
+
+.bg-second-color:hover {
+  background-color: #1d98d1;
+}
+
+.bg-white {
+  color: #1b1b1b !important;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .sub-nav {
+    margin: 0 !important;
+  }
+  .sub-nav .nav-item {
+    margin: 0 !important;
+  }
+}
+
+a:visited {
+  color: inherit;
+}
